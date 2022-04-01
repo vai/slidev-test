@@ -26,13 +26,16 @@ Presentation slides for developers
 
 <div class="text-center">
   <div class="pt-12">
-    <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
+    <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer"
+      hover="bg-white bg-opacity-10">
       Press Space for next page <carbon:arrow-right class="inline"/>
     </span>
   </div>
 </div>
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+The last comment block of each slide will be treated as slide notes. It will be
+visible and editable in Presenter Mode along with the slide.
+[Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
 
 ---
@@ -42,7 +45,8 @@ image: https://images.unsplash.com/photo-1496504175726-c7b4523c7e81
 
 # What is Slidev?
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
+Slidev is a slides maker and presenter designed for developers, consist of the
+following features
 
 - 📝 **Text-based** - focus on the content with Markdown, and then style them later
 
@@ -58,23 +62,24 @@ h1 {
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
 </style>
 
 ---
 
-# Navigation
+## Navigation
 
-Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
+Hover on the bottom-left corner to see the navigation's controls panel,
+[learn more](https://sli.dev/guide/navigation.html)
 
 ### Keyboard Shortcuts
 
 |     |     |
 | --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
+| <kbd>right</kbd> / <kbd>space</kbd>| next step or slide |
+| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous step or slide |
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
 
@@ -159,14 +164,15 @@ Check out [the guides](https://sli.dev/builtin/components.html) for more.
 </div>
 </div>
 
-
 ---
 class: px-20
 ---
 
 # Themes
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+Slidev comes with powerful theming support. Themes can provide styles, layouts,
+components, or even configurations for tools. Switching between themes by just
+ **one edit** in your frontmatter:
 
 <div grid="~ cols-2 gap-2" m="-t-2">
 
@@ -233,7 +239,7 @@ Animations are powered by [@vueuse/motion](https://motion.vueuse.org/).
     />
   </div>
 
-  <div 
+  <div
     class="text-5xl absolute top-14 left-40 text-[#2B90B6] -z-1"
     v-motion
     :initial="{ x: -80, opacity: 0}"
@@ -319,7 +325,6 @@ C -->|Two| E[Result 2]
 </div>
 
 [Learn More](https://sli.dev/guide/syntax.html#diagrams)
-
 
 ---
 layout: center
